@@ -28,3 +28,4 @@ public class CalculateTemperatureMain {
         }
     }
 }
+//will be migrating this program into switch case
