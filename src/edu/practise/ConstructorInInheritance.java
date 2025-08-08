@@ -2,19 +2,19 @@ package edu.practise;
 
 class Parent{
     public Parent(){
-        System.out.println("Parent Constructor");
+        System.out.println("Parent Constructor Called");
     }
 }
 
 class Child extends Parent{
     public Child(){
-        System.out.println("Child Constructor");
+        System.out.println("Child Constructor Called");
     }
 }
 
 class GrandChild extends Child{
     public GrandChild(){
-        System.out.println("GrandChild Constructor");
+        System.out.println("GrandChild Constructor Called");
     }
 }
 public class ConstructorInInheritance {
